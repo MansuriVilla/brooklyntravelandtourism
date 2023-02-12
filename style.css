@@ -12,9 +12,20 @@ body{
 }
 .hr-ctt-scc{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    padding: .1rem 1rem .1rem 1rem;
+    justify-content: space-evenly;
     align-items:center;
     background: rgb(5 21 83);
+}
+.logo-hld-scc{
+    background: url(images/Fav-icon-new.png);
+    height: 55px;
+    width: 55px;
+    border-radius:50%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
 .ctt-scc-dtl{
     color: #fff;
@@ -119,9 +130,6 @@ button:hover{
 .ftr-scc-ctt{
     top: 39.8%;
     position: relative;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
     background: rgb(5 21 83);
 }
 .mild-ctt-scc{
@@ -192,11 +200,80 @@ img.twt-icn{
     font-family: 'Jost', sans-serif;
     background: rgba(0, 0, 0, 0.2);
 }
-.rvr-scc-ctt .cmp-nme-ttl{
+/*.rvr-scc-ctt .cmp-nme-ttl{
     margin-left: 1rem;    
 }
 .cmp-nme-ttl span{
     font-family: 'Arvo', serif;
     
-}
+}*/
+@media only screen and (max-width: 600px){
 
+    .ctt-scc-dtl{
+        opacity: 1;
+        color: #fff;
+        font-family: 'DM Serif Display', serif;
+    }
+    .logo-hld-scc{
+        background: url(images/Fav-icon-new.png);
+        height: 55px;
+        width: 55px;
+        border-radius:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+    }
+    .ftr-scc-ctt{
+        top:50%;
+        position: relative;
+        background: rgb(5 21 83);
+    }
+
+}
+@media only screen and (max-width: 500px){
+
+    .ctt-scc-dtl{
+        opacity: 1;
+        color: #fff;
+        font-family: 'DM Serif Display', serif;
+    }
+    .logo-hld-scc{
+        background: url(images/Fav-icon-new.png);
+        height: 55px;
+        width: 55px;
+        border-radius:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+    }
+    .ftr-scc-ctt{
+        top:11%;
+        position: relative;
+        background: rgb(5 21 83);
+    }
+
+}
+@media only screen and (max-width: 414px){
+
+    .ctt-scc-dtl{
+        opacity: 1;
+        color: #fff;
+        font-size: .5rem;
+        font-family: 'DM Serif Display', serif;
+    }
+    .mild-ctt-scc{
+        justify-content: center;
+    }
+    .mild-scd-row h2{
+        margin-right: 0px;
+    }
+    .a-hld-scc{
+        justify-content: center !important;
+    }
+}
