@@ -276,4 +276,7 @@ img.twt-icn{
     .a-hld-scc{
         justify-content: center !important;
     }
+    .scc-min-ctt h3{
+        font-size: 1.5rem;
+    }
 }
