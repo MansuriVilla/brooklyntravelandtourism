@@ -280,3 +280,11 @@ img.twt-icn{
         font-size: 1.5rem;
     }
 }
+@media only screen and (max-width: 414px orientation: landscape){
+     .ftr-scc-ctt{
+        top:7.8%;
+        position: relative;
+        background: rgb(5 21 83);
+    }
+   
+}
