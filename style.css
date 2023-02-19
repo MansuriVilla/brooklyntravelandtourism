@@ -277,12 +277,11 @@ button:hover{
 
 }
 @media only screen and (max-width: 414px){
-
     .ctt-scc-dtl{
         opacity: 1;
         left: 30px;
         color: #fff;
-        font-size: .7rem;
+        font-size: .5rem;
         font-family: 'DM Serif Display', serif;
     }
     .mild-ctt-scc{
@@ -302,21 +301,15 @@ button:hover{
         margin-bottom: 35px;
     }
 }
-@media only screen and (max-width: 414px orientation: landscape){
-     .ftr-scc-ctt{
-        top:7.8%;
-        position: relative;
-        background: rgb(5 21 83);
+@media only screen and (max-width: 360px){
+    .hr-ctt-scc{
+        padding-right: 35px;
     }
     .ctt-scc-dtl{
         opacity: 1;
-        color: #fff;
         left: 30px;
+        color: #fff;
+        font-size: .5rem;
         font-family: 'DM Serif Display', serif;
     }
-    .frm-scc-ctt{
-        width: min-content;
-        margin-bottom: 35px;
-    }
-   
 }
