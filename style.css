@@ -231,6 +231,9 @@ button:hover{
         left: 30px;
         font-family: 'DM Serif Display', serif;
     }
+    .ctt-scc-dtl p{
+        font-size: 10pt;
+    }
     .logo-hld-scc{
         background: url(images/Fav-icon-new.png);
         height: 55px;
@@ -260,6 +263,9 @@ button:hover{
         color: #fff;
         left: 30px;
         font-family: 'DM Serif Display', serif;
+    }
+    .ctt-scc-dtl p{
+        font-size: 10pt;
     }
     .logo-hld-scc{
         background: url(images/Fav-icon-new.png);
@@ -292,6 +298,9 @@ button:hover{
         font-size: .6rem;
         font-family: 'DM Serif Display', serif;
     }
+    .ctt-scc-dtl p{
+        font-size: 10pt;
+    }
     .mild-ctt-scc{
         justify-content: center;
     }
@@ -312,6 +321,9 @@ button:hover{
 @media only screen and (max-width: 360px){
     .hr-ctt-scc{
         padding-right: 35px;
+    }
+    .ctt-scc-dtl p{
+        font-size: 10pt;
     }
     .logo-hld-scc{
     background: url(images/Fav-icon-new.png);
