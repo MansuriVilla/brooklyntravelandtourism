@@ -228,7 +228,7 @@ button:hover{
         background: url(images/Fav-icon-new.png);
         height: 55px;
         width: 55px;
-        border-radius:50%;
+        border-radius:30%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -258,7 +258,7 @@ button:hover{
         background: url(images/Fav-icon-new.png);
         height: 40px;
         width: 37px;
-        border-radius:50%;
+        border-radius:30%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -306,6 +306,15 @@ button:hover{
     .hr-ctt-scc{
         padding-right: 35px;
     }
+    .logo-hld-scc{
+    background: url(images/Fav-icon-new.png);
+    height: 60px;
+    width: 60px;
+    border-radius:30%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
     .ctt-scc-dtl{
         opacity: 1;
         left: 30px;
