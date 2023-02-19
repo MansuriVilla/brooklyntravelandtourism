@@ -220,6 +220,7 @@ button:hover{
     .ctt-scc-dtl{
         opacity: 1;
         color: #fff;
+        left: 30px;
         font-family: 'DM Serif Display', serif;
     }
     .logo-hld-scc{
@@ -249,6 +250,7 @@ button:hover{
     .ctt-scc-dtl{
         opacity: 1;
         color: #fff;
+        left: 30px;
         font-family: 'DM Serif Display', serif;
     }
     .logo-hld-scc{
@@ -278,6 +280,7 @@ button:hover{
 
     .ctt-scc-dtl{
         opacity: 1;
+        left: 30px;
         color: #fff;
         font-size: .7rem;
         font-family: 'DM Serif Display', serif;
@@ -304,6 +307,12 @@ button:hover{
         top:7.8%;
         position: relative;
         background: rgb(5 21 83);
+    }
+    .ctt-scc-dtl{
+        opacity: 1;
+        color: #fff;
+        left: 30px;
+        font-family: 'DM Serif Display', serif;
     }
     .frm-scc-ctt{
         width: min-content;
