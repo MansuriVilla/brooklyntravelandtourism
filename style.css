@@ -13,7 +13,7 @@ body{
 .hr-ctt-scc{
     display: flex;
     flex-wrap: wrap;
-    padding: .1rem 1rem .1rem 1rem;
+    padding: .1rem 2rem .1rem 1rem;
     justify-content: center;
     align-items:center;
     background: rgb(5 21 83);
@@ -295,7 +295,7 @@ button:hover{
         justify-content: center;
     }
     .mild-scd-row h2{
-        margin-right: 0px;
+        margin-right: 32px;
     }
     .a-hld-scc{
         justify-content: center !important;
