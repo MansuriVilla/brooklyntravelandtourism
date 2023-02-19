@@ -169,6 +169,12 @@ button:hover{
     left: 36%;
     border-radius: 50px;
 }
+.mild-fst-row a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
 .mild-scd-row{
     color: #fff;
     padding:.9rem;
